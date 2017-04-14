@@ -35,12 +35,11 @@ div.is-centered {
   width: 20%;
 }
 
-#sidebar-first,
-#page-content {
+#sidebar-first {
   float: left;
 }
 
-#sidebar-right {
+#sidebar-second {
   float: right;
 }
 

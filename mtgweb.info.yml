@@ -9,3 +9,5 @@ regions:
   sidebar_first: 'Left sidebar'
   sidebar_second: 'Right sidebar'
   footer: Footer
+libraries:
+  - mtgweb/global-styling

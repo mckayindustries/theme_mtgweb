@@ -1,0 +1,91 @@
+h1, h2, h3, h4, h5 {
+    font-family: "Oswald", "sans-serif";
+    font-weight: 300;
+}
+
+body {
+    background-color: #999999;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.button.is-primary {
+    background-color: #aa1a1e;
+}
+
+.button.is-primary:hover {
+    background-color: #862633;
+}
+
+#header {
+    background-image: url(/sites/default/files/Banner-Header.jpg);
+    background-position-x: right;
+    background-position-y: -174px;
+    background-repeat: no-repeat;
+}
+
+#site-title {
+    background-color: #aa1a1e;
+    color: #FFF;
+    padding: 18px 93px 21px 49px;
+}
+
+#site-title .title {
+    color: #FFF !important;
+    text-transform: uppercase;
+}
+
+#main-menu {
+    bottom: 0px;
+    height: 2.6em;
+    position: absolute;
+    /* background-color: white; */
+    width: 100%;
+}
+
+#main-menu ul {
+    height: 100%;
+    float: left;
+    list-style: none;
+    /* padding-left: 24px; */
+}
+
+#main-menu ul li {
+    background-color: maroon;
+    color: white;
+    float: left;
+    height: 100%;
+    line-height: 2.6em;
+    min-width: 8.4em;
+    padding: 0px 8px;
+    position: relative;
+    text-align: center;
+}
+
+#main-menu ul li:not(.first)::before {
+    content: '';
+    border-left: 2px solid #A7A8AA;
+    height: 70%;
+    left: 0px;
+    position: absolute;
+    top: 15%;
+}
+
+#main-menu ul li a {
+    color: white;
+    display: block;
+    font-family: "Oswald", "sans-serif";
+    height: 100%;
+    padding: 0px 14px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#featured-links {
+  background-color: #eceae3;
+  padding: 16px 0px;
+}
+
+#footer {
+    background-color: #000;
+    color: #FFF;
+}

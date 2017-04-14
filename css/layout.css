@@ -1,0 +1,62 @@
+div.is-centered {
+  margin: auto;
+}
+
+#header {
+  height: 284px;
+  position: relative;
+}
+
+#site-title {
+  position: absolute;
+  top: 84px;
+}
+
+#featured-links {
+  height: 228px;
+  width: 100%;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+}
+
+#sidebar-first,
+#page-content,
+#sidebar-second {
+  float: left;
+  position: relative;
+  padding-top: 22px;
+  padding-bottom: 16px;
+}
+
+#sidebar-first,
+#sidebar-second {
+  width: 20%;
+}
+
+body.one-sidebar #page-content {
+  width: 80%;
+}
+
+body.one-sidebar.sidebar-second #page-content {
+    padding-right: 24px;
+    padding-left: 62px;
+}
+
+body.two-sidebars #page-content {
+  width: 60%;
+}
+
+body.sidebar-left #main-squeeze {
+  margin-left: 20px;
+}
+
+body.sidebar-right #main-squeeze {
+  margin-right: 20px;
+}
+
+body.two-sidebars #main-squeeze {
+  margin: 0 20px;
+}

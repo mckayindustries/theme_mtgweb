@@ -1,0 +1,21 @@
+{
+    "name": "MTGweb",
+    "description": "A custom Drupal theme developed by McKay Industries for Morehouse College",
+    "type": "drupal-theme",
+    "authors": [
+        {
+            "name": "Tre`Von McKay",
+            "email": "trevon.mckay@mckayindustries.com",
+            "role": "Maintainer",
+            "homepage": "https://github.com/trevonmckay"
+        }
+    ],
+    "support": {
+        "email": "support@mckayindustries.com",
+        "issues": "https://github.com/mckayindustries/theme_mtgweb/issues",
+        "source": "https://github.com/mckayindustries/theme_mtgweb"
+    },
+    "require": {
+        "wikimedia/composer-merge-plugin": "^1.4"
+    }
+}

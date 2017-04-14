@@ -1,0 +1,11 @@
+MTGweb:
+  version: 1.x
+  css:
+    theme:
+      css/bulma.css: {}
+      css/layout.css: {}
+      css/sytle.css: {}
+  js:
+    js/mtgweb.js: {}
+  dependencies:
+    - core/jquery

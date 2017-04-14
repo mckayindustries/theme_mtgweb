@@ -4,9 +4,8 @@
         <h1 class="title is-1">{{ site_name }</h1>
     </div>
     {% endif %}
-    {% $main_menu = menu_navigation_links('main-menu'); %}
     <div id="main-menu">
-        {% print theme('links__menu_main_menu', array('links' => $main_menu)); %}
+        {{ page.primary_menu }}
     </div>
 </div>
 <div id="wrapper">

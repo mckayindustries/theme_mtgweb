@@ -29,13 +29,14 @@
     </div>
     <footer class="footer" id="footer">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-        <div class="container">
-            {{ page.footer_first }}
-            {{ page.footer_second }}
-            {{ page.footer_third }}
-            {{ page.footer_fourth }}
+        <div class="container columns">
+            <div class="column" id="footer_first">{{ page.footer_first }}</div>
+            <div class="column" id="footer_second">{{ page.footer_second }}</div>
+            <div class="column" id="footer_third">{{ page.footer_third }}</div>
+            <div class="column" id="footer_fourth">{{ page.footer_fourth }}</div>
         </div>
-        {% else %}
+        {% endif %}
+        {% if page.footer %}
         <div class="container">
             <div class="content has-text-centered">
                 {% if page.footer %}    

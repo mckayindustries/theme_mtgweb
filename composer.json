@@ -1,5 +1,5 @@
 {
-    "name": "mtgweb",
+    "name": "mckayindustries/mtgweb",
     "homepage": "https://github.com/mckayindustries/theme_mtgweb",
     "description": "A custom Drupal theme developed by McKay Industries for Morehouse College",
     "type": "drupal-theme",

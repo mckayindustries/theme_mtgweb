@@ -4,7 +4,7 @@ global-styling:
     base:
       css/bulma.css: {}
       css/layout.css: {}
-      css/sytle.css: {}
+      css/style.css: {}
   js:
     js/mtgweb.js: {}
   dependencies:

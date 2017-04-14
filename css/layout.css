@@ -35,7 +35,8 @@ div.is-centered {
   width: 20%;
 }
 
-#sidebar-first {
+#sidebar-first,
+#page-content {
   float: left;
 }
 

@@ -5,6 +5,7 @@ global-styling:
       css/bulma.css: {}
       css/layout.css: {}
       css/style.css: {}
+      css/font-awesome.min.css: {}
   js:
     js/mtgweb.js: {}
   dependencies:

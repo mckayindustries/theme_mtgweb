@@ -1,5 +1,5 @@
 MTGweb:
-  version: 1.x
+  version: 1.0.0-dev
   css:
     theme:
       css/bulma.css: {}

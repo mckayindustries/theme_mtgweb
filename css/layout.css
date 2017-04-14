@@ -25,7 +25,6 @@ div.is-centered {
 #sidebar-first,
 #page-content,
 #sidebar-second {
-  float: left;
   position: relative;
   padding-top: 22px;
   padding-bottom: 16px;
@@ -34,6 +33,15 @@ div.is-centered {
 #sidebar-first,
 #sidebar-second {
   width: 20%;
+}
+
+#sidebar-first,
+#page-content {
+  float: left;
+}
+
+#sidebar-right {
+  float: right;
 }
 
 body.one-sidebar #page-content {

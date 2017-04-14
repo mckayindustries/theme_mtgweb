@@ -28,6 +28,14 @@
         {{ page.content }}
     </div>
     <footer class="footer" id="footer">
+        {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+        <div class="container">
+            {{ page.footer_first }}
+            {{ page.footer_second }}
+            {{ page.footer_third }}
+            {{ page.footer_fourth }}
+        </div>
+        {% else %}
         <div class="container">
             <div class="content has-text-centered">
                 {% if page.footer %}    
@@ -35,5 +43,6 @@
                 {% endif %}
             </div>
         </div>
+        {% endif %}
     </footer>
 </div>

@@ -17,7 +17,7 @@ body {
 }
 
 #header {
-    background-image: url(/sites/default/files/Banner-Header.jpg);
+    background-image: url(../images/header-banner.jpg);
     background-position-x: right;
     background-position-y: -174px;
     background-repeat: no-repeat;

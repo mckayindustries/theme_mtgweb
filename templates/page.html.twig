@@ -1,40 +1,40 @@
 <div id="header">
-    {% if (!is_null($site_name)): %}
+    {% if site_name %}
     <div id="site-title">
-        <h1 class="title is-1">{% print $site_name; %}</h1>
+        <h1 class="title is-1">{{ site_name }</h1>
     </div>
-    {% endif; %}
+    {% endif %}
     {% $main_menu = menu_navigation_links('main-menu'); %}
     <div id="main-menu">
         {% print theme('links__menu_main_menu', array('links' => $main_menu)); %}
     </div>
 </div>
 <div id="wrapper">
-    {% if ($page['featured_links']): %}
+    {% if page.highlighted %}
     <div id="featured-links">
-        {% print render($page['featured_links']); %}
+        {{ page.highlighted }}
     </div>
-    {% endif; %}
-    {% if ($page['sidebar_first']): %} 
+    {% endif %}
+    {% if page.sidebar_first %} 
     <div id="sidebar-first">
-        {% print render($page['sidebar_first']); %}
+        {{ page.sidebar_first }}
     </div>
-    {% endif; %}
+    {% endif %}
     <div id="page-content">
-        {% print render($page['content']); %}
+        {{ page.content }}
     </div>
-    {% if ($page['sidebar_second']): %} 
+    {% if page.sidebar_second %} 
     <div id="sidebar-second">
-        {% print render($page['sidebar_second']); %}
+        {{ page.sidebar_second }}
     </div>
-    {% endif; %}
+    {% endif %}
 </div>
 <footer class="footer" id="footer">
     <div class="container">
         <div class="content has-text-centered">
-            {% if ($page['footer']): %}    
-                {% print render($page['footer']); %}
-            {% endif; %}
+            {% if page.footer %}    
+                {{ page.footer }
+            {% endif %}
         </div>
     </div>
 </footer>

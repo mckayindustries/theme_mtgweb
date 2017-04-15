@@ -70,6 +70,10 @@ body {
     top: 15%;
 }
 
+#main-menu ul.menu > li > ul > li:not(:last-child) {
+    border-bottom: black solid 1px;
+}
+
 #main-menu ul li a {
     color: white;
     display: block;

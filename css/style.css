@@ -70,8 +70,19 @@ body {
     top: 15%;
 }
 
-#main-menu ul.menu > li > ul > li:not(:last-child) {
-    border-bottom: black solid 1px;
+#main-menu ul ul {
+    width: auto;
+}
+
+#main-menu ul.menu > li > ul > li:not(:first-child)::before {
+    content: '';
+    background-color: black;
+    border-top: 1px solid black;
+    height: 1px;
+    width: 88%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main-menu ul li a {

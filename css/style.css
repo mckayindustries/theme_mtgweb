@@ -59,6 +59,7 @@ body {
     padding: 0px 8px;
     position: relative;
     text-align: center;
+    white-space: nowrap;
 }
 
 #main-menu ul.menu > li:not(:first-child)::before {
@@ -72,6 +73,7 @@ body {
 
 #main-menu ul ul {
     width: auto;
+    white-space: nowrap;
 }
 
 #main-menu ul.menu > li > ul > li:not(:first-child)::before {
@@ -93,6 +95,7 @@ body {
     padding: 0px 14px;
     text-transform: uppercase;
     width: 100%;
+    white-space: nowrap;
 }
 
 #main-menu ul li:hover ul {

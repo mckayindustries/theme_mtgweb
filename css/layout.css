@@ -36,20 +36,20 @@ div.is-centered {
 
 #sidebar-first,
 #sidebar-second {
-  width: 20%;
+  /*width: 20%;*/
 }
 
 #sidebar-first {
-  float: left;
+  /*float: left;*/
   margin-left: 42px;
 }
 
 #page-content {
-  float: left;
+  /*float: left;*/
 }
 
 #sidebar-second {
-  float: right;
+  /*float: right;*/
   margin-right: 42px;
 }
 

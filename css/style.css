@@ -61,7 +61,7 @@ body {
     text-align: center;
 }
 
-#main-menu ul li:not(.first)::before {
+#main-menu ul li:not(:first-child)::before {
     content: '';
     border-left: 2px solid #A7A8AA;
     height: 70%;

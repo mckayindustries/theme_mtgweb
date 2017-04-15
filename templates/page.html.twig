@@ -10,11 +10,11 @@
         </div>
     </div>
     {% if page.highlighted %}
-    <div id="featured-links" class="column">
+    <div id="highlighted" class="column">
         {{ page.highlighted }}
     </div>
     {% endif %}
-    <div id="wrapper" class="columns">
+    <div id="content-wrapper" class="columns">
         {% if page.sidebar_first %} 
         <div id="sidebar-first" class="column is-one-quarter">
             {{ page.sidebar_first }}

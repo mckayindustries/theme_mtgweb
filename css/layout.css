@@ -12,7 +12,7 @@ div.is-centered {
   top: 84px;
 }
 
-#featured-links {
+#highlighted {
   height: 228px;
   width: 100%;
 }
@@ -53,9 +53,9 @@ div.is-centered {
   margin-right: 42px;
 }
 
-#wrapper {
+#content-wrapper {
   padding-bottom: 68px;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .page-wrapper {

@@ -20,7 +20,7 @@ div.is-centered {
 #footer {
   bottom: 0px;
   float: left;
-  height: 68px;
+  padding: 3rem 1.5rem 2rem !important;
   position: absolute;
   width: 100%;
 }

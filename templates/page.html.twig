@@ -10,13 +10,13 @@
         </div>
     </div>
     {% if page.highlighted %}
-        <div id="featured-links" class="column">
-            {{ page.highlighted }}
-        </div>
-        {% endif %}
+    <div id="featured-links" class="column">
+        {{ page.highlighted }}
+    </div>
+    {% endif %}
     <div id="wrapper" class="columns">
         {% if page.sidebar_first %} 
-        <div id="sidebar-first" class="column">
+        <div id="sidebar-first" class="column is-one-fourth">
             {{ page.sidebar_first }}
         </div>
         {% endif %}
@@ -24,7 +24,7 @@
             {{ page.content }}
         </div>
         {% if page.sidebar_second %} 
-        <div id="sidebar-second">
+        <div id="sidebar-second" class"column is-one-fourth">
             {{ page.sidebar_second }}
         </div>
         {% endif %}

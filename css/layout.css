@@ -38,13 +38,18 @@ div.is-centered {
   width: 20%;
 }
 
-#sidebar-first,
+#sidebar-first {
+  float: left;
+  margin-left: 42px;
+}
+
 #page-content {
   float: left;
 }
 
 #sidebar-second {
   float: right;
+  margin-right: 42px;
 }
 
 #wrapper {

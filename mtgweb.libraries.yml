@@ -2,6 +2,7 @@ global-styling:
   version: VERSION
   css:
     base:
+      css/webtoolkit.clearfix.css: {}
       css/bulma.css: {}
       css/layout.css: {}
       css/style.css: {}

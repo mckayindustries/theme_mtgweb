@@ -80,6 +80,17 @@ body {
     width: 100%;
 }
 
+#main-menu ul li:hover ul {
+    display: block;
+}
+
+#main-menu ul li ul {
+    list-style: none;
+    position: absolute;
+    border: none;
+    display: none;
+}
+
 #highlighted {
   background-color: #eceae3;
   padding: 16px 0px;

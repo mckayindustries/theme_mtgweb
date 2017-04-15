@@ -27,23 +27,23 @@
     <div id="page-content">
         {{ page.content }}
     </div>
-    <footer class="footer" id="footer">
-        {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-        <div class="columns">
-            <div class="column" id="footer_first">{{ page.footer_first }}</div>
-            <div class="column" id="footer_second">{{ page.footer_second }}</div>
-            <div class="column" id="footer_third">{{ page.footer_third }}</div>
-            <div class="column" id="footer_fourth">{{ page.footer_fourth }}</div>
-        </div>
-        {% endif %}
-        {% if page.footer %}
-        <div class="columns">
-            <div class="column has-text-centered">
-                {% if page.footer %}    
-                    {{ page.footer }}
-                {% endif %}
-            </div>
-        </div>
-        {% endif %}
-    </footer>
 </div>
+<footer class="footer" id="footer">
+    {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+    <div class="columns">
+        <div class="column" id="footer_first">{{ page.footer_first }}</div>
+        <div class="column" id="footer_second">{{ page.footer_second }}</div>
+        <div class="column" id="footer_third">{{ page.footer_third }}</div>
+        <div class="column" id="footer_fourth">{{ page.footer_fourth }}</div>
+    </div>
+    {% endif %}
+    {% if page.footer %}
+    <div class="columns">
+        <div class="column has-text-centered">
+            {% if page.footer %}    
+                {{ page.footer }}
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</footer>

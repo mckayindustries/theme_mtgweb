@@ -19,7 +19,8 @@ div.is-centered {
 
 #footer {
   bottom: 0px;
-  float: left;
+  left: 0px;
+  right: 0px;
   padding: 3rem 1.5rem 2rem !important;
   position: absolute;
   width: 100%;
@@ -60,6 +61,11 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  position: relative;
+  padding-bottom: 6rem;
 }
 
 body.one-sidebar #page-content {

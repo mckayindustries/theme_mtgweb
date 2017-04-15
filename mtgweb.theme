@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the MTGweb theme.
+ */
+
+ /**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function mtgweb_preprocess_page_title(&$variables) {
+    // Since the title is a block level element
+    // a variable titled 'site_name' is created
+    $variables['site_name'] = \Drupal::config('system.site')->get('name');
+}

@@ -57,15 +57,17 @@ div.is-centered {
   padding-bottom: 68px;
 }
 
+.page-wrapper {
+  height: 100%;
+  margin: 0px;
+  padding: 0px 0px 208px 0px;
+  position: relative;
+}
+
 html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-}
-
-body {
-  position: relative;
-  padding-bottom: 6rem;
 }
 
 body.one-sidebar #page-content {

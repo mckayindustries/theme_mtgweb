@@ -2,6 +2,10 @@ div.is-centered {
   margin: auto;
 }
 
+.dialog-offcanvas__main-canvas {
+  height: 100%;
+}
+
 #header {
   height: 284px;
   position: relative;

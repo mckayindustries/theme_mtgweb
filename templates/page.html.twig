@@ -18,10 +18,12 @@
         <div class="container">
             <div class="columns">
                 {% if page.sidebar_first %}
-                <div id="page-title" class="column is-half is-offset-one-quarter"><h1 class="title is-1">{{ node.label }}</h1></div>
+                <div id="page-title" class="column is-half is-offset-one-quarter">
                 {% else %}
-                <div id="page-title" class="column is-half"><h1 class="title is-1">{{ node.label }}</h1></div>
+                <div id="page-title" class="column is-half">
                 {% endif %}
+                    <h2 class="title is-2">{{ node.label }}</h2>
+                </div>
             </div>
             <div id="content-wrapper" class="columns">
             {% if page.sidebar_first %} 

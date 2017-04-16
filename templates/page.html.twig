@@ -16,6 +16,13 @@
     {% endif %}
     <div id="main">
         <div class="container">
+            <div class="columns">
+                {% if page.sidebar_first %}
+                <div id="page-title" class="column is-half is-offset-one-quarter"><h1 class="title is-1">{{ node.label }}</h1></div>
+                {% else %}
+                <div id="page-title" class="column is-half"><h1 class="title is-1">{{ node.label }}</h1></div>
+                {% endif %}
+            </div>
             <div id="content-wrapper" class="columns">
             {% if page.sidebar_first %} 
             <div id="sidebar-first" class="column is-one-quarter">

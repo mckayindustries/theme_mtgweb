@@ -17,13 +17,9 @@ div.is-centered {
   width: 100%;
 }
 
-#footer {
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  padding: 3rem 1.5rem 2rem !important;
-  position: absolute;
-  width: 100%;
+#page-title {
+    padding-top: 31px;
+    padding-bottom: 14px;
 }
 
 #sidebar-first,
@@ -56,6 +52,15 @@ div.is-centered {
 #content-wrapper {
   padding-bottom: 68px;
   /*width: 100%;*/
+}
+
+#footer {
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 3rem 1.5rem 2rem !important;
+  position: absolute;
+  width: 100%;
 }
 
 .page-wrapper {

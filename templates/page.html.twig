@@ -14,21 +14,23 @@
         {{ page.highlighted }}
     </div>
     {% endif %}
-    <div class="container">
-        <div id="content-wrapper" class="columns">
-        {% if page.sidebar_first %} 
-        <div id="sidebar-first" class="column is-one-quarter">
-            {{ page.sidebar_first }}
-        </div>
-        {% endif %}
-        <div id="page-content" class="column">
-            {{ page.content }}
-        </div>
-        {% if page.sidebar_second %} 
-        <div id="sidebar-second" class="column is-one-quarter">
-            {{ page.sidebar_second }}
-        </div>
-        {% endif %}
+    <div id="main">
+        <div class="container">
+            <div id="content-wrapper" class="columns">
+            {% if page.sidebar_first %} 
+            <div id="sidebar-first" class="column is-one-quarter">
+                {{ page.sidebar_first }}
+            </div>
+            {% endif %}
+            <div id="page-content" class="column">
+                {{ page.content }}
+            </div>
+            {% if page.sidebar_second %} 
+            <div id="sidebar-second" class="column is-one-quarter">
+                {{ page.sidebar_second }}
+            </div>
+            {% endif %}
+            </div>
         </div>
     </div>
     <footer class="footer" id="footer">

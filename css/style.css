@@ -115,6 +115,11 @@ body {
   padding: 16px 0px;
 }
 
+#main {
+    background: white;
+    width: 100%;
+}
+
 #footer {
     background-color: #000;
     color: #FFF;

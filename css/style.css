@@ -35,11 +35,7 @@ body {
 }
 
 #main-menu {
-    bottom: 0px;
-    height: 2.6em;
-    position: absolute;
     /* background-color: white; */
-    width: 100%;
 }
 
 #main-menu ul {

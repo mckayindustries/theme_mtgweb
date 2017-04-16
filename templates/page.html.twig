@@ -1,20 +1,32 @@
 <div class="page-wrapper">
-    <div id="header">
-        {% if site_name %}
-        <div id="site-title">
-            <h1 class="title is-1">{{ site_name }}</h1>
+    <header id="header">
+        <div class="container">
+            {% if site_name %}
+            <div class="site-title-wrapper">
+                <div id="site-title">
+                    <h1 class="title is-1">{{ site_name }}</h1>
+                </div>
+            </div>
+            {% endif %}
+            <div id="search">
+                <div class="field">
+                    <p class="control has-icons-left">
+                        <input class="input is-medium" type="text" placeholder="Search">
+                        <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
+                    </p>
+                </div>
+            </div>
+            <div id="main-menu">
+                {{ page.main_menu }}
+            </div>
         </div>
-        {% endif %}
-        <div id="main-menu">
-            {{ page.main_menu }}
-        </div>
-    </div>
+    </header>
     {% if page.highlighted %}
-    <div id="highlighted" class="column">
+    <section id="highlighted" class="column">
         {{ page.highlighted }}
-    </div>
+    </section>
     {% endif %}
-    <div id="main">
+    <section id="main">
         <div class="container">
             <div class="columns">
                 {% if page.sidebar_first %}
@@ -27,21 +39,21 @@
             </div>
             <div id="content-wrapper" class="columns">
             {% if page.sidebar_first %} 
-            <div id="sidebar-first" class="column is-one-quarter">
+            <aside id="sidebar-first" class="column is-one-quarter">
                 {{ page.sidebar_first }}
-            </div>
+            </aside>
             {% endif %}
-            <div id="page-content" class="column">
+            <article id="page-content" class="column content">
                 {{ page.content }}
-            </div>
+            </article>
             {% if page.sidebar_second %} 
-            <div id="sidebar-second" class="column is-one-quarter">
+            <aside id="sidebar-second" class="column is-one-quarter">
                 {{ page.sidebar_second }}
-            </div>
+            </aside>
             {% endif %}
             </div>
         </div>
-    </div>
+    </section>
     <footer class="footer" id="footer">
         <div class="container">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}

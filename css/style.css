@@ -119,3 +119,12 @@ body {
     background-color: #000;
     color: #FFF;
 }
+
+footer h2 {
+    color: maroon;
+    font-size: 1.6rem;
+}
+
+footer a {
+    color: white;
+}

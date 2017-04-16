@@ -103,6 +103,11 @@ body.two-sidebars #main-squeeze {
   width: 100%;
 }
 
+.site-title-wrapper {
+  padding-top: 44px;
+  width: 52%;
+}
+
 .page-wrapper {
   height: 100%;
   margin: 0px;

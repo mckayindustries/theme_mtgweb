@@ -28,13 +28,15 @@ body.two-sidebars #main-squeeze {
 }
 
 #header {
-  height: 284px;
+  min-height: 284px;
   position: relative;
 }
 
 #site-title {
+  display: inline-block;
   /*position: absolute;*/
   /*top: 84px;*/
+  width:115%;
 }
 
 #search {
@@ -57,9 +59,10 @@ body.two-sidebars #main-squeeze {
 
 #main-menu {
     bottom: 0px;
+    display: inline-block;
     height: 2.6em;
     /*position: absolute;*/
-    width: 100%;
+    /*width: 100%;*/
 }
 
 #content-wrapper {
@@ -105,7 +108,8 @@ body.two-sidebars #main-squeeze {
 
 .site-title-wrapper {
   padding-top: 44px;
-  width: 52%;
+  /*width: 52%;*/
+  display: inline-block;
 }
 
 .page-wrapper {

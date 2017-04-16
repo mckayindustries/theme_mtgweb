@@ -2,6 +2,31 @@ div.is-centered {
   margin: auto;
 }
 
+body.one-sidebar #page-content {
+  width: 80%;
+}
+
+body.one-sidebar.sidebar-second #page-content {
+    padding-right: 24px;
+    padding-left: 62px;
+}
+
+body.two-sidebars #page-content {
+  width: 60%;
+}
+
+body.sidebar-left #main-squeeze {
+  margin-left: 20px;
+}
+
+body.sidebar-right #main-squeeze {
+  margin-right: 20px;
+}
+
+body.two-sidebars #main-squeeze {
+  margin: 0 20px;
+}
+
 #header {
   height: 284px;
   position: relative;
@@ -24,6 +49,11 @@ div.is-centered {
 #page-title {
     padding-top: 31px;
     padding-bottom: 14px;
+}
+
+#content-wrapper {
+  padding-bottom: 68px;
+  /*width: 100%;*/
 }
 
 #sidebar-first,
@@ -53,11 +83,6 @@ div.is-centered {
   margin-right: 42px;
 }
 
-#content-wrapper {
-  padding-bottom: 68px;
-  /*width: 100%;*/
-}
-
 #footer {
   bottom: 0px;
   left: 0px;
@@ -77,29 +102,4 @@ div.is-centered {
 html, body {
   margin: 0px;
   padding: 0px;
-}
-
-body.one-sidebar #page-content {
-  width: 80%;
-}
-
-body.one-sidebar.sidebar-second #page-content {
-    padding-right: 24px;
-    padding-left: 62px;
-}
-
-body.two-sidebars #page-content {
-  width: 60%;
-}
-
-body.sidebar-left #main-squeeze {
-  margin-left: 20px;
-}
-
-body.sidebar-right #main-squeeze {
-  margin-right: 20px;
-}
-
-body.two-sidebars #main-squeeze {
-  margin: 0 20px;
 }

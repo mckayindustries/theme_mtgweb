@@ -4,8 +4,9 @@ description: 'A custom theme developed by McKay Industries for Morehouse College
 core: 8.x
 regions:
   header: Header
-  main_menu: 'Main Menu'
-  highlighted: Featured
+  main_menu: 'Main menu'
+  site_search: 'Site search'
+  highlighted: Highlighted
   sidebar_first: 'Left sidebar'
   content: Content
   sidebar_second: 'Right sidebar'

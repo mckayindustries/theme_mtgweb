@@ -1,22 +1,24 @@
 <div class="page-wrapper">
     <header id="header">
         <div class="container">
-            {% if site_name %}
-            <div class="site-title-wrapper">
-                <div id="site-title">
-                    <h1 class="title is-1">{{ site_name }}</h1>
+            <div class="columns is-multiline is-gapless">
+                {% if site_name %}
+                <div class="site-title-wrapper column is-12">
+                    <div id="site-title">
+                        <h1 class="title is-1">{{ site_name }}</h1>
+                    </div>
                 </div>
-            </div>
-            {% endif %}
-            <div id="main-menu">
-                {{ page.main_menu }}
-            </div>
-            <div id="search">
-                <div class="field">
-                    <p class="control has-icons-left">
-                        <input class="input is-medium" type="text" placeholder="Search">
-                        <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
-                    </p>
+                {% endif %}
+                <div id="main-menu" class="column is-12">
+                    {{ page.main_menu }}
+                </div>
+                <div id="search" class="column is-12">
+                    <div class="field">
+                        <p class="control has-icons-left">
+                            <input class="input is-medium" type="text" placeholder="Search">
+                            <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

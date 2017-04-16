@@ -17,6 +17,10 @@ div.is-centered {
   width: 100%;
 }
 
+#main {
+  padding-bottom: 29px;
+}
+
 #page-title {
     padding-top: 31px;
     padding-bottom: 14px;

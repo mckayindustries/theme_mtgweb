@@ -14,7 +14,8 @@
         {{ page.highlighted }}
     </div>
     {% endif %}
-    <div id="content-wrapper" class="columns">
+    <div class="container">
+        <div id="content-wrapper" class="columns">
         {% if page.sidebar_first %} 
         <div id="sidebar-first" class="column is-one-quarter">
             {{ page.sidebar_first }}
@@ -28,8 +29,10 @@
             {{ page.sidebar_second }}
         </div>
         {% endif %}
+        </div>
     </div>
     <footer class="footer" id="footer">
+        <div class="container">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
         <div class="columns">
             <div class="column" id="footer_first">{{ page.footer_first }}</div>
@@ -47,5 +50,6 @@
             </div>
         </div>
         {% endif %}
+        </div>
     </footer>
 </div>

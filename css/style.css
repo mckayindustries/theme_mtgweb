@@ -3,6 +3,10 @@ h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
 
+h1, h2, h3, h4, h5 a {
+    color: #426da9;
+}
+
 body {
     background-color: #999999;
     font-family: "Open Sans", Helvetica, sans-serif;

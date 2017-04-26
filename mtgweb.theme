@@ -54,7 +54,7 @@ function mtgweb_field__field_tags(&$variables) {
   $output .= '</ul>';
  
   // Render the top-level div.
-  $classes = rtrim('field_tags ' . $variables['classes']);
+  $classes = rtrim('field-tags ' . $variables['classes']);
   $output = '<div class="' . $classes . '"' . $variables['atributes'] . '>' . $output . '</div>';
  
   return $output;

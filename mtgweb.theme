@@ -31,3 +31,30 @@ function mtgweb_theme_preprocess_menu(&$variables, $hook) {
     }
   }
 }
+
+/**
+ * Implements theme_field__field_tags().
+ */
+function mtgweb_field__field_tags(&$variables) {
+  $output = '';
+ 
+  // Render the label if it's not hidden.
+  if (!$variables['label_hidden']) {
+    $output .= '<div class="field-label"' . $variables['title_attributes'] . '>' . $variables['label'] . ':&nbsp;</div>';
+  }
+ 
+  // Render the items.
+  $index = 0;
+  $output .= '<ul class="field-items"' . $variables['content_attributes'] . '>';
+  foreach ($variables['items'] as $delta => $item) {
+    $classes = 'field-item ' . ($delta % 2 ? 'odd' : 'even');
+    $output .= ($index ? ',' : '') . ' <li class="' . $classes . '"' . $variables['item_attributes'][$delta] . '>' . drupal_render($item) . '</li>';
+    $index++;
+  }
+  $output .= '</ul>';
+ 
+  // Render the top-level div.
+  $output = '<div class="' . $variables['classes'] . '"' . $variables['atributes'] . '>' . $output . '</div>';
+ 
+  return $output;
+}

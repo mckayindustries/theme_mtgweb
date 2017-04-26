@@ -124,7 +124,7 @@ body {
     width: 100%;
 }
 
-#sidebar-second .views-element-container:not(:first-child) {
+#sidebar-second .views-element-container {
   border-left: solid;
 }
 

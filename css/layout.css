@@ -97,6 +97,14 @@ body.two-sidebars #main-squeeze {
   margin-right: 42px;
 }
 
+#sidebar-first .views-element-container:not(:first-child) {
+  padding-top: 19px;
+}
+
+#sidebar-second .views-element-container:not(:first-child) {
+  padding-top: 19px;
+}
+
 #footer {
   bottom: 0px;
   left: 0px;

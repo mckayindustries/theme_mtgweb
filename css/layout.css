@@ -131,6 +131,31 @@ body.two-sidebars #main-squeeze {
   position: relative;
 }
 
+.field-tags {
+    display: inline-block;
+    /* padding-top: 14px; */
+    margin-top: 14px;
+    padding-right: 14px;
+    /* border-top-style: groove; */
+}
+
+.field-tags .field-label {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.field-tags .field-items {
+    list-style: none;
+    padding: 0px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.field-tags .field-item {
+    display: inline-block;
+}
+
 .rate-widget-yesno ul li {
     margin-top: 0px;
 }

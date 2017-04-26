@@ -131,6 +131,10 @@ body.two-sidebars #main-squeeze {
   position: relative;
 }
 
+.rate-widget-yesno ul li {
+    margin-top: 0px;
+}
+
 html, body {
   margin: 0px;
   padding: 0px;

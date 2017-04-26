@@ -103,6 +103,7 @@ body.two-sidebars #main-squeeze {
 
 #sidebar-second .views-element-container:not(:first-child) {
   padding-top: 19px;
+  padding-left: 11px;
 }
 
 #footer {

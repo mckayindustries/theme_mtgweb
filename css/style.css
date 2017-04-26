@@ -124,6 +124,10 @@ body {
     width: 100%;
 }
 
+#sidebar-second .views-element-container:not(:first-child) {
+  border-left: solid;
+}
+
 #footer {
     background-color: #000;
     color: #FFF;

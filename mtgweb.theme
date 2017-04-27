@@ -42,7 +42,7 @@ function mtgweb_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_st
     $form['keys']['#attributes']['placeholder'] = t('Search for...');
     $form['keys']['#attributes']['class'] = array('input', 'is-medium');
     $form['actions']['submit']['#value'] = t('Search');
-    $form['actions']['#attributes']['class'][] = array('visually-hidden');
+    $form['actions']['submit']['#attributes']['class'] = array('visually-hidden');
   }
 }
 

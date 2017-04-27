@@ -156,6 +156,8 @@ body.two-sidebars #main-squeeze {
 }
 
 .search-control {
+  margin-left: auto;
+  margin-right: auto;
   width: 74%;
 }
 

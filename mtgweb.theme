@@ -37,11 +37,12 @@ function mtgweb_theme_preprocess_menu(&$variables, $hook) {
  */
 function mtgweb_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   if ($form_id == 'search_block_form') {
-    $form['keys']['#field_prefix'] = '<p class="control has-icons-left field-prefix">';
+    $form['keys']['#field_prefix'] = '<p class="control has-icons-left field-prefix search-control">';
     $form['keys']['#field_suffix'] = '<span class="icon is-small is-left field-suffix"><i class="fa fa-search"></i></span>';
     $form['keys']['#attributes']['placeholder'] = t('Search for...');
     $form['keys']['#attributes']['class'] = array('input', 'is-medium');
     $form['actions']['submit']['#value'] = t('Search');
+    $form['actions']['#attributes']['class'][] = array('visually-hidden');
   }
 }
 

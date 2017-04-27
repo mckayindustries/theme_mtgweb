@@ -155,6 +155,14 @@ body.two-sidebars #main-squeeze {
     display: inline-block;
 }
 
+.search-control {
+  width: 74%;
+}
+
+.search-control input[type="search"] {
+    border-radius: 0;
+}
+
 .rate-widget-yesno ul li {
     margin-top: 0px;
 }

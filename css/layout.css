@@ -110,7 +110,6 @@ body.two-sidebars #main-squeeze {
 }
 
 #footer {
-  bottom: 0px;
   left: 0px;
   right: 0px;
   padding: 3rem 1.5rem 2rem !important;
@@ -183,11 +182,13 @@ html, body {
     border-left: none !important;
   }
 
-  #footer {
-    bottom: 0 !important;
-  }
-
   .content:not(:last-child) {
     margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  #footer {
+    bottom: 0px !important;
   }
 }
